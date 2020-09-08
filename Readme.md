@@ -35,7 +35,7 @@ Running the run_analysis.R file will do the following:
 7. The variables are all labelled based on the labels from features file.
 8. The Activity, Subject and Extract data is all merged.
 9. The data is grouped by Subject and Activity, then summarised to create averages, this is now the tidy data set.
-10. The tidy data set is written to a file called tidydata.txt.
+10. The tidy data set is written to a file called tidydata.txt, this file is tab delimited.
 
 
 

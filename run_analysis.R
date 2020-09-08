@@ -101,4 +101,4 @@ grouped_data <- group_by(data_total,activityname,subject)
 summary_data <- summarise_each(grouped_data,list(mean = mean))
 
 # write into a new file
-write.table(summary_data, file = "tidydata.txt", row.names = FALSE, col.names = TRUE)
+write.table(summary_data, file = "tidydata.txt", sep= "\t", row.names = FALSE, col.names = TRUE)
