@@ -1,5 +1,5 @@
 
-### Step 0 - Setup enviroment, Download the data and unzip
+### Step 0 - Setup enviroment and data folder, download the data and unzip
 
 # clear enviroment
 rm(list=ls())
